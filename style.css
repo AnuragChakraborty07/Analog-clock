@@ -1,0 +1,66 @@
+
+#clockContainer{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url(pngwing.com.png) no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+#hour, #minute, #second{
+   position: absolute;
+   background: black;
+   border-radius: 10px;
+   transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 31%;
+    top: 18%;
+    left: 49.5%;
+    /* display: none; */
+}
+#minute{
+    width: 1.5%;
+    height: 36%;
+    top: 15%;
+    left: 49.6%;
+    /* display: none; */
+}
+#second{
+    width: 0.9%;
+    height: 41%;
+    top: 10%;
+    left: 49.9%;
+    /* display: none; */
+}
+
+.title{
+    display: flex;
+    font-size: 23px;
+    position: absolute;
+    top: 6%;
+    border: 2px solid black;
+    border-radius: 6px;
+    background: antiquewhite;
+    padding: 7px;
+    
+}
+body{
+    background: url(daniel-leone-g30P1zcOzXo-unsplash.jpg) no-repeat;
+}
+
+.digital{
+    border: 3px solid rgb(12 12 12);
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 393px;
+    left: 36%;
+    padding: 9px;
+    border-radius: 14px;
+    position: absolute;
+    bottom: 54px;
+}
